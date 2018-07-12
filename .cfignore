@@ -1,0 +1,5 @@
+./LICENSE
+./README.md
+./manifest.yml
+./deploy.sh
+./deploy.log

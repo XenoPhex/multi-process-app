@@ -1,0 +1,26 @@
+---
+applications:
+- name: mpa
+  env:
+    foo: "bar"
+    bar: 1
+    qux: 1234567890
+  routes:
+  - route:
+  buildpacks:
+  - ruby_buildpack
+  - binary_buildpack
+  - staticfile_buildpack
+  processes:
+  - type: web
+    disk_quota: 256M
+    instances: 2
+    memory: 32M
+  - type: binary-worker
+    disk_quota: 256M
+    instances: 1
+    memory: 32M
+  - type: ruby-worker
+    disk_quota: 256M
+    instances: 1
+    memory: 128M
