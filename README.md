@@ -1,5 +1,5 @@
 # multi-process-app
-This is a simple multi-process/multi-buildpack application that runs on [Cloud Foundry](https://github.com/cloudfoundry). It's purpose is to help test the [CF CLI](https://github.com/cloudfoundry/cli) and the [CF V3 API](v3-apidocs.cloudfoundry.org).
+This is a simple multi-process/multi-buildpack application that runs on [Cloud Foundry](https://github.com/cloudfoundry). It's purpose is to help test the [CF CLI](https://github.com/cloudfoundry/cli) and the [CF V3 API](https://v3-apidocs.cloudfoundry.org).
 
 ## Requirements
 - CF CLI Version `6.37.0+`
