@@ -4,7 +4,7 @@ set -e
 
 rm -f deploy.log
 
-cf v3-create-app mpa
+cf v3-create-app --name mpa
 cf v3-apply-manifest -f manifest.yml
 
 cf v3-create-package mpa | tee -a deploy.log
