@@ -10,6 +10,7 @@ After you've logged into a Cloud Foundry Foundation and targeted an organization
 ```
 $ git clone https://github.com/XenoPhex/multi-process-app.git
 $ cd multi-process-app
+# UPDATE ROUTE IN MANIFEST
 $ ./deploy.sh
 ```
 
