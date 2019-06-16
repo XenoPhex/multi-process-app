@@ -5,8 +5,6 @@ applications:
     foo: "bar"
     bar: 1
     qux: 1234567890
-  routes:
-  - route:
   buildpacks:
   - ruby_buildpack
   - binary_buildpack
